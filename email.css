@@ -1,0 +1,47 @@
+.hero {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Quicksand;
+}
+
+.email {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, textarea {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.input-field {
+    padding-bottom: 3px;
+}
+
+.send-button {
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    background-color:rgb(57, 156, 254);
+    padding: 5px 30px 7px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 2px;
+    opacity: .75;
+    font-family: Quicksand;
+    font-weight: 600;
+    transition: 0.5;
+}
+
+.send-button:hover{
+    cursor: pointer;
+    opacity: 1;
+}

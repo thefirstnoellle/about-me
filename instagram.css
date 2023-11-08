@@ -1,0 +1,53 @@
+.userid {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    margin: 12px 0px 8px 12px;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 13px;
+}
+.profile-picture {
+    width: 65px;
+    border-radius: 35px;
+    margin-bottom: 0;
+    margin: 7px;
+    float: left;
+}
+
+.posts {
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 11px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.instagram-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.ig-bio {
+    font-family: Georgia;
+    font-size: 11px;
+    line-height: 12px;
+    display: inline-block;
+    width: 80%;
+    margin: 5px 0px 23px 10px;
+    }
+
+.ig-feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.pic {
+    width: 70px;
+    margin-top: 12px;
+    justify-content: center;
+}
